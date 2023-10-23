@@ -1,0 +1,87 @@
+@use 'Variables'
+@use 'mixes'
+ 
+@media ( min-width: 557px )
+
+    #boddy
+        padding: 2%
+        display: flex
+        text-decoration: none
+        background-color: #000
+        height: 100vh
+        width: 100%
+        gap: 10px
+        box-sizing: border-box
+        margin: auto
+    
+        .nav
+            flex: 1 1 0
+            box-sizing: border-box
+            
+            .links-container 
+
+                height: 100%
+                width: 100%
+                position: relative
+                border-radius: Variables.$container-border-radius 0 0 Variables.$container-border-radius
+                background-color: Variables.$body-bg-color
+                box-sizing: border-box
+
+                .sep
+                    padding-top: 100px
+                    margin: auto
+
+                .links
+                    
+                    display: grid
+                    padding: 15px
+                    padding: auto
+                    align-items: center
+                    text-align: center
+                    box-sizing: border-box
+
+                    &:hover
+                        background-color: Variables.$bg-color
+                         color: #000
+                        
+
+                    :has(&:hover) &:not(:hover)
+                        opacity: 0.4
+                        scale: .80
+                        transition: .9s
+
+                        
+                        
+                    
+                    
+                    a
+                        text-decoration: none
+                        align-items: center
+                        justify-content: center
+                        box-sizing: border-box
+                        font-size: 18px
+                        font-weight: bolder
+                        padding: 10%
+                        color: Variables.$text-color-secondary
+
+                        &:hover
+                            color: #000
+                       
+                        
+                        
+            
+
+        .body-page
+            
+            flex: 4 4 0
+            
+            .body-page-container
+                height: 100%
+                width: 100%
+                border-radius: 0 Variables.$container-border-radius Variables.$container-border-radius 0
+                background-color: Variables.$body-bg-color
+                display: grid
+
+
+h1
+    color: Variables.$text-color

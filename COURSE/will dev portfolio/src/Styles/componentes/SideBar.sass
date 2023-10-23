@@ -1,0 +1,30 @@
+@use '../varibles'
+@use '../mixis'
+
+#sideBar
+    background-color: varibles.$bg-color
+    flex: 1 1 0
+    border-radius: varibles.$container-border-radius
+    display: flex
+    align-items: center
+    flex-direction: column
+    text-align: center
+    position: relative
+    padding: 16px 0
+
+    img
+        max-width: 70%
+        border-radius: varibles.$card-border-radius
+        position: absolute
+        top: -55px
+
+    .titlte
+        color: varibles.$text-color-secundary
+        background-color: varibles.$bg-color-secundary
+        border-radius: varibles.$card-border-radius
+        margin-top: 100px
+        padding: 20px 20px
+
+    .btn
+        @include mixis.btn
+    

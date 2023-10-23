@@ -1,0 +1,110 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    position: relative;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.logo{
+    width: 50%;
+    margin: 20px;
+}
+.header-btn{
+    display: flex;
+    margin: 20px;
+}
+.language-btn{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    margin-right: 10px;
+    
+}
+select{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    
+}
+option{ 
+    background-color: black;
+    border: 1px solid #000;
+    
+   
+}
+.sign-in-btn{
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(212, 19, 19);
+    color: #fff;
+    cursor: pointer;
+}
+.header-body{
+    text-align: center;
+    align-items: center;
+    margin-top: 20%;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.email-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+input{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 14px;
+    width: 400px;
+    margin-right: 10px;
+    color: #fff;
+
+    &::placeholder{
+        color: #fff;
+
+    }
+}
+.gret-started-btn{
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+    padding: 14px;
+    background-color: rgb(212, 19, 19);
+    color: #fff;
+    cursor: pointer;
+
+}

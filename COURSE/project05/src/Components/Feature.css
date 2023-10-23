@@ -1,0 +1,32 @@
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    border-top: 8px solid #242424;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.tex-col{
+    flex-basis:  50%;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.img-col{
+    flex-basis:  50%;
+    margin-bottom: 20px;
+}
+img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+    

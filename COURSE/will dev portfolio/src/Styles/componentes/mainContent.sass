@@ -1,0 +1,33 @@
+@use '../varibles'
+@use '../mixis'
+
+
+#main-content
+    background-color: varibles.$bg-color
+    flex: 2 1 0
+    border-radius: varibles.$container-border-radius
+    padding: 15px
+
+    section
+        display: flex
+        flex-direction: column  
+    
+    h2
+        color: varibles.$text-color
+        font-size: 30px
+        margin-bottom: 18px
+        @include mixis.center 
+        justify-content: start
+        gap: 20px
+
+        &:after
+            @include mixis.gradient-border
+
+    p
+        color: varibles.$text-color-secundary
+        margin-bottom: 18px
+        line-height: 24px
+
+    .btn
+        @include mixis.btn
+        align-self: start

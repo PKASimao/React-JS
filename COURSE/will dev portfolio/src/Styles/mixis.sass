@@ -1,0 +1,22 @@
+@use 'varibles'
+
+
+@mixin center
+
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin btn
+
+    padding: 10px 15px
+    color: varibles.$text-color-secundary
+    background: varibles.$gradiente
+    text-decoration: none
+    border-radius: 15px
+
+@mixin gradient-border
+    content: ""
+    background: varibles.$gradiente
+    height: 3px
+    width: 20%

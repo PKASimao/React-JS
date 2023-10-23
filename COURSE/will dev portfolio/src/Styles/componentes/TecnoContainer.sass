@@ -1,0 +1,52 @@
+@use '../varibles'
+@use '../mixis'
+
+.tecno-container
+    margin-bottom: 20px
+
+    .tecnology-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 30px
+        
+        .tecnology-card
+            @include mixis.center
+            gap: 20px
+            padding: 20px
+            border: 1px solid #333
+            width: 45%
+            border-radius: varibles.$card-border-radius
+        
+
+        h3
+            color: varibles.$text-color
+            margin-bottom: 20px
+
+        svg
+            font-size: 6rem
+
+    #html
+        svg
+            color:#E44D26
+    
+    #css
+        svg
+            color:#1572b6
+    
+    #js
+        svg
+            color:#f0db4f
+    
+    #node
+        svg
+            color:#83cd29
+    
+    #mysql
+        svg
+            color:#00618a
+    
+    #react
+        svg
+            color:#61dafb
+        
+            

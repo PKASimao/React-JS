@@ -1,0 +1,32 @@
+@use '../varibles'
+@use '../mixis'
+
+#social-network
+    @include mixis.center
+    gap: 15px
+    margin: 10px 0
+
+    .social-btn
+        padding: 10px
+        background-color: varibles.$bg-color-secundary
+        border-radius: varibles.$container-border-radius
+        color: #333
+        font-size: 20px
+        @include mixis.center
+
+    #Linkedin
+        color: #0072B1
+        
+    #Github
+        color: #111
+        
+    #Instagram
+        color: #bc2a8d
+    
+    :hover
+        background: varibles.$gradiente
+        > svg
+            color: varibles.$text-color
+        
+    
+        
